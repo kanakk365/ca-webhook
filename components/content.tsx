@@ -3,6 +3,7 @@ import DashboardSection from "./dashboard-section"
 import CalendarWidget from "./calendar-widget"
 import LiveStream from "./live-stream"
 import Gallery from "./gallery"
+import ConnectedDevices from "./connected-devices"
 
 export default function Content() {
   return (
@@ -14,6 +15,8 @@ export default function Content() {
       <div>
         <CalendarWidget />
       </div>
+
+      <ConnectedDevices />
 
       {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <InviteTeam />
